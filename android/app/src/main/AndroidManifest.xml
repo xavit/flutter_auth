@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="app.apicalos.flutter_auth">
+    package="app.apicalos.auth">
    <application
         android:label="flutter_auth"
         android:name="${applicationName}"

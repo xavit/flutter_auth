@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "154943196087",
+    "project_id": "flutter-signin-39562",
+    "storage_bucket": "flutter-signin-39562.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154943196087:android:4296254e8bb54698917632",
+        "android_client_info": {
+          "package_name": "app.apicalos.auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154943196087-nff0h2nnjsd0es4e3th8k19qs72r9erd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.apicalos.auth",
+            "certificate_hash": "7398c2bc0ec9578196c183a3e45706be5b7db38e"
+          }
+        },
+        {
+          "client_id": "154943196087-8ojfrpl8rl5e84kg8l1v5at01728rfa8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmykmd5EpSTWUQm6iVOUfrrftu8PqEefU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154943196087-0p5glba83mjrl9l9pbko901sbvpoq55d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154943196087:android:9fdd782e9aaabbc3917632",
+        "android_client_info": {
+          "package_name": "app.apicalos.flutter_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154943196087-8ojfrpl8rl5e84kg8l1v5at01728rfa8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmykmd5EpSTWUQm6iVOUfrrftu8PqEefU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154943196087-0p5glba83mjrl9l9pbko901sbvpoq55d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

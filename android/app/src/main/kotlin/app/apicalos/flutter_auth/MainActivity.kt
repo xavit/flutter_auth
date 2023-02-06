@@ -1,4 +1,4 @@
-package app.apicalos.flutter_auth
+package app.apicalos.auth
 
 import io.flutter.embedding.android.FlutterActivity
 
