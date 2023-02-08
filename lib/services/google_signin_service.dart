@@ -1,4 +1,5 @@
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:http/http.dart' as http;
 
 class GoogleSignInService {
   static final GoogleSignIn _googleSignIn = GoogleSignIn(
@@ -11,8 +12,21 @@ class GoogleSignInService {
   static Future<GoogleSignInAccount?> singInWithGoogle() async {
     try {
       final GoogleSignInAccount? account = await _googleSignIn.signIn();
+      final googleKey = await account?.authentication;
 
-      print("Cuenta Google: $account");
+      // print("ID TOKEN : $googleKey");
+      // print(googleKey!.idToken);
+
+      final uriGoogle = Uri(
+          scheme: "https",
+          host: "mighty-meadow-72333.herokuapp.com",
+          path: "/google");
+
+      final response =
+          await http.post(uriGoogle, body: {"token": googleKey!.idToken});
+
+      print("====BACKEND====");
+      print(response.body);
 
       return account;
     } catch (e) {

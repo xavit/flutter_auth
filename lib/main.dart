@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
                 icon: const Icon(FontAwesomeIcons.doorOpen),
                 onPressed: () {
                   GoogleSignInService.signOutGoogle();
+                  print("Sesión cerrada");
                 },
               ),
             ],
